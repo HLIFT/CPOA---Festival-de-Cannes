@@ -1,0 +1,466 @@
+/* ---- Général ---- */
+
+body 
+{
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Exo2;
+    color : #424242;
+}
+
+@font-face
+{
+    font-family: "Exo2";
+    src: url("./Exo2-Regular.otf");
+}
+/*
+table 
+{
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: auto;
+}
+*/
+td, th 
+{
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+td 
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+input[type=button] {
+    background-color:#2b2b2b;
+    color: white;
+    padding: 7px 10px;
+    margin: 4px 0;
+    border: 1px solid #2b2b2b;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=button]:hover {
+    background-color: #C9A460;
+    color: #ffffff;
+    border: 1px solid #C9A460;
+}
+
+input[type=submit] {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 7px 10px;
+    margin: 4px 0;
+    border: 1px solid #2b2b2b;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #C9A460;
+    color: #ffffff;
+    border: 1px solid #C9A460;
+}
+
+table {
+    width:1400px;
+    padding: 10px;
+    margin: auto;
+    /*border: 1px solid #f1f1f1;
+    background: rgba(146, 146, 146, 0.089);*/
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+caption 
+{
+    padding: 10px;
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+h1{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: Exo2;
+    font-style: bold;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=date], input[type=time] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 12px 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+p {
+    margin-top : 5px 0 2px;
+}
+
+/* ---- NavBar ---- */
+
+.nav
+{
+    background-color: #2b2b2b!important;
+}
+
+.nav-text
+{
+    color: white!important;
+    font-size: 200%!important;
+}
+
+.nav-text:hover
+{
+    color:#C9A460!important;
+}
+
+.nav-text:active
+{
+    color: #C9A460;
+}
+
+.nav-text-disable
+{
+    color: white!important;
+    font-size: 100%!important;
+}
+
+/* ---- Div ----*/
+
+.div{
+    width:600px;
+    margin:0 auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.div2{
+    width:1400px;
+    margin:0 auto;
+    margin-top:2%;
+    margin-bottom: 5%;
+}
+
+.btn-align
+{
+    margin: 20px auto;
+}
+
+.btn-align input[type=button]
+{
+    background-color:#2b2b2b;
+    color: white;
+    padding: 7px 10px;
+    margin: auto 4px;
+    border: 1px solid #2b2b2b;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 30%;
+}
+
+.btn-align input[type=button]:hover {
+    background-color: #C9A460;
+    color: #ffffff;
+    border: 1px solid #C9A460;
+}
+
+.div input[type=button], input[type=submit] {
+    background-color:#2b2b2b;
+    color: white;
+    margin: 20px 4px 0;
+    border: 1px solid #2b2b2b;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 48%;
+}
+
+.div input[type=button]:hover {
+    background-color: #C9A460;
+    color: #ffffff;
+    border: 1px solid #C9A460;
+}
+
+.container
+{
+    width: 1400px;
+    border-radius: 1rem;
+    background-color: #e7e7e7;
+    margin: 5% auto;
+    padding-bottom: 2%;
+}
+
+.container input[type=button]
+{
+    background-color:#2b2b2b;
+    color: white;
+    padding: 7px 10px;
+    margin: auto 4px;
+    border: 1px solid #2b2b2b;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 30%;
+}
+
+.container input[type=button]:hover {
+    background-color: #C9A460;
+    color: #ffffff;
+    border: 1px solid #C9A460;
+}
+
+.detail
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto 1% auto;
+    padding: 5% 0;
+}
+
+.detail :first-child {
+    align-self: center;
+}
+
+.echange
+{
+    padding: 3% 0;
+}
+
+.echange table
+{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+}
+
+.echange p
+{
+    font-size: 35px;
+    text-align: left;
+    margin: 0 6%;
+}
+
+.profil
+{
+    margin: auto 6%;
+}
+
+.img-profil
+{
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+}
+
+.infos
+{
+    margin: auto 6%;
+    font-size: 150%;
+}
+
+
+
+/* ---- Index ----*/
+
+.bienvenue{
+    padding-top: 2%;
+    color: white;
+    text-align: justify;
+}
+
+#index p
+{
+    color: white;
+    padding-left: 12%;
+    text-align: left;
+    font-size: 22.5px;
+}
+
+.img-accueil{
+    width: 1300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: .75rem;
+}
+
+.boutons input[type=button]
+{
+    background-color:#2b2b2b;
+    color: white;
+    padding: 7px 10px;
+    margin: 4px 4px;
+    border: 1px solid #2b2b2b;
+    cursor: pointer;
+    width: 40%;
+}
+
+.boutons input[type=button]:hover
+{
+    background-color: #C9A460;
+    color: #ffffff;
+    border: 1px solid #C9A460;
+}
+
+#index
+{
+    background-image: url('../Style/affiche.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 850px;
+}
+
+/* ----- Connexion ----- */
+
+.icone-connect
+{
+    align-content: flex-end;
+    margin-left: 2px;
+    width: 21px;
+    height: 21px;
+}
+
+.connect
+{
+    margin-left: 5px;
+    color:#ffffff;
+    border-color: #ffffff;
+    background-color:#535353;
+}
+
+.connect:hover
+{
+    background-color:#C9A460;
+    border-color: #C9A460;
+}
+
+.connect:focus
+{
+    background-color: #C9A460;
+}
+
+.connect:active
+{
+    background-color: #C9A460;
+}
+
+.compte{
+    margin-right: 2%;
+    font-size: 20px;
+}
+
+.ctq{
+    margin-right: 2%;
+    font-size: 14px;
+}
+
+/* ----- Deconnexion ----- */
+
+.deco {
+    width:500px;
+    margin:0 auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding-bottom: 7px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.deco input[type=button] {
+    background-color:#2b2b2b;
+    color: white;
+    padding: 7px 10px;
+    margin: 4px 0;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 7px;
+    border: 1px solid #2b2b2b;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 45%;
+}
+
+.deco input[type=button]:hover {
+    background-color: #C9A460;
+    color: #ffffff;
+    border: 1px solid #C9A460;
+}
+
+.message
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2%;
+}
+
+/* ----- Images ----- */
+
+.img{
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ---- Impossible ---- */
+
+.impo{
+    width:950px;
+    margin:0 auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding: 20px 0;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.impo input[type=button] {
+    background-color:#2b2b2b;
+    color: white;
+    margin: 4px 0;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 7px;
+    border: 1px solid #2b2b2b;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 45%;
+}
+
+.impo input[type=button]:hover {
+    background-color: #C9A460;
+    color: #ffffff;
+    border: 1px solid #C9A460;
+}
+
+.impo h1 {
+    font-size: 180%;
+    margin: 5px auto;
+}
+
+.erreur{
+    color:red;
+}
+
+.raison{
+    font-size: 115%;
+}
